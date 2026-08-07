@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ahmed Elmorsy - GIS &amp; Remote Sensing Specialist, Spatial AI Analyst, and Vibe Coder based in Egypt. Specializing in ArcGIS Pro, Google Earth Engine, Random Forest Machine Learning, and Spatial Statistics.">
+  <title>Ahmed Elmorsy | GIS Analyst, Spatial AI &amp; Vibe Coder</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="./main.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Linen grain overlay -->
+  <div class="grain"></div>
+
+  <!-- Navigation Header -->
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a href="#home" class="brand">
+        <span class="brand__mark"></span>
+        <span class="brand__name">Ahmed<span>.Elmorsy</span></span>
+      </a>
+      <nav class="nav">
+        <a href="#about" class="nav-link" data-i18n="nav-about">About</a>
+        <a href="#projects" class="nav-link" data-i18n="nav-projects">Projects</a>
+        <a href="#skills" class="nav-link" data-i18n="nav-skills">Skills</a>
+        <a href="#certificates" class="nav-link" data-i18n="nav-certificates">Certificates</a>
+        <a href="#services" class="nav-link" data-i18n="nav-services">Services</a>
+        <a href="#contact" class="nav-link" data-i18n="nav-contact">Contact</a>
+      </nav>
+      <div class="topbar-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle Light/Dark Theme">
+          <i id="themeToggleIcon" class="ti ti-moon"></i>
+        </button>
+        <!-- Language Toggle -->
+        <button class="lang-toggle-btn" id="langToggle" aria-label="Toggle Language / تغيير اللغة">
+          <i class="ti ti-world"></i>
+          <span id="langLabel">العربية</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero__media">
+      <div class="hero__img-wrap">
+        <!-- Abstract high-end glowing satellite earth rendering -->
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072" alt="A glowing abstract satellite rendering of planet earth in light grid patterns">
+      </div>
+      <div class="hero__veil"></div>
+      <div class="hero__beam"></div>
+    </div>
+    <div class="container-xl hero__inner hero__inner--centered">
+      <div class="hero__content">
+        <div class="hero__label fade-up" data-i18n="hero-label">GIS &amp; Remote Sensing Specialist <span></span> Spatial AI &amp; Vibe Coder</div>
+        <h1 class="hero__title fade-up delay-1" id="heroNameTitle">Ahmed <span class="name-accent">Elmorsy</span></h1>
+        <p class="hero__tag fade-up delay-2" data-i18n="hero-tag">I translate complex spatial datasets into empirical intelligence and high-fidelity web applications. Specialized in ArcGIS Pro, Google Earth Engine, Random Forest Spatial ML, and Vibe Coding.</p>
+        
+        <!-- Direct Quick Contact Badges in Hero -->
+        <div class="hero-quick-contacts fade-up delay-2">
+          <a href="tel:+201071840475" class="hero-quick-link"><i class="ti ti-phone"></i> +20 107 184 0475</a>
+          <a href="https://wa.me/201071840475" target="_blank" rel="noopener" class="hero-quick-link whatsapp-glow"><i class="ti ti-brand-whatsapp"></i> WhatsApp</a>
+          <a href="mailto:a.sayed1543@gmail.com" class="hero-quick-link"><i class="ti ti-mail"></i> Email</a>
+          <a href="https://www.linkedin.com/in/ahmed-elmorsy-787b28392/" target="_blank" rel="noopener" class="hero-quick-link"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
+        </div>
+
+        <div class="hero-ctas fade-up delay-3">
+          <a href="#projects" class="hero__cta primary">
+            <span data-i18n="hero-cta-projects">Explore Case Studies</span>
+            <span class="arrow">→</span>
+          </a>
+          <a href="#contact" class="hero__cta">
+            <span data-i18n="hero-cta-contact">Get In Touch</span>
+          </a>
+        </div>
+        <div class="hero__scroll fade-up delay-4">
+          <span data-i18n="hero-scroll">scroll</span>
+          <div class="hero__scrollline"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="container-xl about__grid">
+      <div class="about__text fade-up">
+        <span class="section-label" data-i18n="about-label">01 · About</span>
+        <h2 class="section-title" data-i18n="about-title">Translating data<br><em>into spatial intelligence.</em></h2>
+        <p class="section-lead" data-i18n="about-lead">A GIS Analyst, Remote Sensing Specialist, and Vibe Coder bridging spatial science with AI-assisted software development.</p>
+        <p data-i18n="about-p1">I build advanced geospatial analytical pipelines and interactive web solutions utilizing ArcGIS Pro, Google Earth Engine, Python, and Vibe Coding workflows. My focus is on delivering rigorous spatial statistics, remote sensing change detection, and data-driven decision support systems.</p>
+        <p data-i18n="about-p2">From monitoring NDVI crop health indices utilizing Landsat &amp; Sentinel satellite data to implementing spatial machine learning models, I develop geospatial solutions with precision and visual excellence.</p>
+      </div>
+
+      <div class="stats__grid fade-up delay-2">
+        <div class="stat-card">
+          <i class="ti ti-map-pin-cog"></i>
+          <div class="num">5+</div>
+          <div class="label" data-i18n="stat-1">Years GIS Specialization</div>
+        </div>
+        <div class="stat-card">
+          <i class="ti ti-layout-dashboard"></i>
+          <div class="num">20+</div>
+          <div class="label" data-i18n="stat-2">Geospatial Case Studies</div>
+        </div>
+        <div class="stat-card">
+          <i class="ti ti-cpu"></i>
+          <div class="num">10+</div>
+          <div class="label" data-i18n="stat-3">Spatial ML &amp; AI Models</div>
+        </div>
+        <div class="stat-card">
+          <i class="ti ti-device-laptop"></i>
+          <div class="num">30+</div>
+          <div class="label" data-i18n="stat-4">Completed Projects</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <div class="container-xl">
+      <header class="section-head">
+        <span class="section-label fade-up" data-i18n="projects-label">02 · Featured Case Studies</span>
+        <h2 class="section-title fade-up delay-1" data-i18n="projects-title">Spatial intelligence<br><em>&amp; empirical research.</em></h2>
+        <p class="section-lead fade-up delay-2" data-i18n="projects-lead">Explore 5 flagship Remote Sensing, Machine Learning, Spatial Econometrics, and Health GIS case studies with complete technical reports, presentation decks, and interactive assets.</p>
+      </header>
+
+      <!-- Category Filter Tabs -->
+      <div class="project-filters fade-up delay-3">
+        <button class="filter-btn active" data-filter="all">
+          <i class="ti ti-apps"></i> <span data-i18n="filter-all">All Case Studies</span>
+        </button>
+        <button class="filter-btn" data-filter="ml-gee">
+          <i class="ti ti-brand-google"></i> <span data-i18n="filter-ml">Machine Learning &amp; GEE</span>
+        </button>
+        <button class="filter-btn" data-filter="spatial-stats">
+          <i class="ti ti-chart-dots"></i> <span data-i18n="filter-stats">Spatial Statistics</span>
+        </button>
+        <button class="filter-btn" data-filter="health-gis">
+          <i class="ti ti-heartbeat"></i> <span data-i18n="filter-health">Health &amp; Urban GIS</span>
+        </button>
+      </div>
+
+      <div class="projects__grid" id="projectsGrid">
+
+        <!-- Case Study 1: Solar Energy Site Suitability Analysis in Egypt -->
+        <article class="project-card fade-up" data-category="ml-gee">
+          <div class="project-meta-row">
+            <span class="project-tag"><i class="ti ti-sun"></i> Renewable Energy / Spatial AI Case Study</span>
+            <div class="role-pills-row" style="margin: 0; display: inline-flex; flex-wrap: wrap; gap: 0.4rem;">
+              <span class="project-role-badge"><i class="ti ti-user-check"></i> GIS Analyst</span>
+              <span class="project-role-badge"><i class="ti ti-chart-dots"></i> Spatial Analysis Specialist</span>
+              <span class="project-role-badge"><i class="ti ti-cpu"></i> Machine Learning Analyst</span>
+            </div>
+          </div>
+
+          <h3 class="project-title" style="font-size: 1.6rem; margin-top: 0.75rem; line-height: 1.3;" data-i18n="p1-title">
+            Solar Energy Site Suitability Analysis in Egypt Using GIS &amp; Machine Learning
+          </h3>
+          <p class="project-subtitle" style="font-size: 1.05rem; color: var(--accent-color); font-weight: 600;" data-i18n="p1-sub">
+            AI-Driven Multi-Criteria Evaluation &amp; Spatial Machine Learning
+          </p>
+          
+          <p class="project-desc" style="font-size: 1rem; line-height: 1.7; color: var(--text-muted); margin-top: 0.5rem;" data-i18n="p1-desc">
+            Identified optimal locations for solar power plant development across Egypt by integrating GEE, Remote Sensing, and Random Forest Machine Learning across 10+ environmental, climatic, and infrastructure criteria.
+          </p>
+          
+          <!-- Key Metrics Grid -->
+          <div class="project-metrics" style="margin: 1.25rem 0; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+            <div class="metric-box">
+              <div class="metric-val" style="color: #f59e0b;">85–90%</div>
+              <div class="metric-lbl" data-i18n="p1-m1-lbl">Overall Model Accuracy</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #3b82f6;">2,000</div>
+              <div class="metric-lbl" data-i18n="p1-m2-lbl">Training Samples</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #10b981;">10+</div>
+              <div class="metric-lbl" data-i18n="p1-m3-lbl">Spatial Criteria</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #a855f7;">5 Tiers</div>
+              <div class="metric-lbl" data-i18n="p1-m4-lbl">Suitability Map</div>
+            </div>
+          </div>
+
+          <!-- Tech Badges Summary -->
+          <div class="project-tech" style="margin: 1rem 0;">
+            <span class="tech-badge tech-gee"><i class="ti ti-brand-google"></i> Google Earth Engine</span>
+            <span class="tech-badge tech-python"><i class="ti ti-brand-python"></i> Python</span>
+            <span class="tech-badge tech-rf"><i class="ti ti-cpu"></i> Random Forest ML</span>
+            <span class="tech-badge tech-arcgis"><i class="ti ti-map-2"></i> ArcGIS Pro</span>
+            <span class="tech-badge tech-dem"><i class="ti ti-mountain"></i> SRTM DEM</span>
+          </div>
+
+          <!-- Action Bar with View Case Study Button -->
+          <div class="project-links" style="margin-top: 1.25rem; align-items: center;">
+            <button type="button" class="project-btn primary-btn toggle-case-study-btn" data-target="#solarCaseStudyDetails" style="background: linear-gradient(135deg, #f59e0b, #d97706); color: #fff; border: none; font-weight: 700;">
+              <i class="ti ti-layout-sidebar-right-expand"></i>
+              <span class="btn-text" data-i18n="btn-view-case-study">View Case Study</span>
+            </button>
+            <span class="project-request-note" style="font-size: 0.88rem; color: var(--text-muted); font-style: italic;">
+              <i class="ti ti-file-info" style="color: #f59e0b;"></i> <span data-i18n="note-report">Full project report is available upon request</span>
+            </span>
+          </div>
+
+          <!-- EXPANDABLE CASE STUDY CONTENT DRAWER -->
+          <div id="solarCaseStudyDetails" class="case-study-details-content" style="display: none; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem; animation: fadeIn 0.4s ease-in-out;">
+            
+            <div style="margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #f59e0b; margin-bottom: 0.5rem;"><i class="ti ti-info-circle"></i> Project Overview</h4>
+              <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-main); margin: 0;">
+                This project aimed to identify the most suitable locations for solar power plant development across Egypt by integrating GIS, Remote Sensing, and Machine Learning techniques. The workflow combined environmental, topographic, and infrastructure factors to generate a national-scale solar suitability model and support renewable energy planning.
+              </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: rgba(245, 158, 11, 0.06); border: 1px solid rgba(245, 158, 11, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #f59e0b; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-alert-triangle"></i> The Challenge
+                </h5>
+                <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+                  Selecting locations for solar energy projects requires balancing multiple factors simultaneously, including solar radiation, terrain conditions, environmental restrictions, infrastructure accessibility, and population distribution. Traditional site selection methods often depend on subjective weighting and manual decision-making, introducing bias and reducing reliability.
+                </p>
+              </div>
+
+              <div style="background: rgba(16, 185, 129, 0.06); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #10b981; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-target-arrow"></i> The Objective
+                </h5>
+                <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+                  Develop an objective, data-driven framework capable of identifying optimal solar energy locations across Egypt using machine learning and geospatial analysis.
+                </p>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; margin-bottom: 0.75rem; color: var(--text-main);"><i class="ti ti-database"></i> Data Sources Integrated:</h5>
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.6rem;">
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #f59e0b;">Solar Radiation:</strong> ERA5-Land
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #ef4444;">Temperature:</strong> MODIS LST
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #06b6d4;">Wind Speed:</strong> ERA5-Land
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #8b5cf6;">Topography:</strong> SRTM DEM, Slope, Aspect
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #3b82f6;">Population Density:</strong> WorldPop
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #10b981;">Protected Areas:</strong> WDPA Layers
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #ec4899;">Road Networks:</strong> OpenStreetMap
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #eab308;">Electrical Grid:</strong> Infrastructure
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-route"></i> Methodology &amp; Machine Learning Workflow:</h5>
+              <ol style="color: var(--text-muted); line-height: 1.7; padding-left: 1.25rem; font-size: 0.9rem; margin: 0;">
+                <li>Collect and prepare spatial datasets.</li>
+                <li>Standardize coordinate systems (UTM Zone 36N) and raster resolutions.</li>
+                <li>Clip and clean all layers for Egypt.</li>
+                <li>Build a unified spatial database.</li>
+                <li>Generate 2,000 training samples extracted from environmental &amp; infrastructure datasets.</li>
+                <li>Train a Random Forest classification model automatically learning relationships between variables.</li>
+                <li>Apply the model nationwide across Egypt in Google Earth Engine.</li>
+                <li>Produce a final 5-class suitability map (Unsuitable to Very Highly Suitable).</li>
+              </ol>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #f59e0b; font-size: 1rem;"><i class="ti ti-trophy"></i> Results &amp; Suitable Development Zones</h5>
+                <p style="margin: 0 0 0.4rem; font-size: 0.88rem; color: var(--text-muted);">Model Accuracy: <strong>85–90%</strong>. Identified 5 top solar zones:</p>
+                <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.85rem; color: var(--text-main); line-height: 1.7;">
+                  <li>Aswan &amp; Benban Solar Complex</li>
+                  <li>East Oweinat</li>
+                  <li>Gulf of Suez Corridor</li>
+                  <li>Western Desert</li>
+                  <li>Selected areas in Sinai</li>
+                </ul>
+              </div>
+
+              <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #3b82f6; font-size: 1rem;"><i class="ti ti-bulb"></i> Strategic Key Findings</h5>
+                <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.7;">
+                  <li><strong>Western Desert:</strong> Emerged as one of the most promising regions due to high solar radiation, low population density, gentle terrain, and large available land areas.</li>
+                  <li><strong>Multi-Factor Feasibility:</strong> Solar radiation alone is not sufficient; infrastructure access, slope, population density, and environmental constraints significantly influence project feasibility.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-check-all"></i> Skills Demonstrated:</h5>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span class="project-role-badge"><i class="ti ti-check"></i> GIS Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Remote Sensing</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Machine Learning</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Random Forest Classification</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Google Earth Engine</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Raster Processing</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Spatial Database Design</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Site Suitability Modeling</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Cartography</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Energy Planning</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(59, 130, 246, 0.08); border-left: 4px solid #3b82f6; border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <strong style="color: var(--text-main);"><i class="ti ti-info-circle"></i> Portfolio Note:</strong> Full project report is available upon request.
+            </div>
+
+            <div style="text-align: right; margin-top: 1rem;">
+              <button type="button" class="project-btn outline-btn toggle-case-study-btn" data-target="#solarCaseStudyDetails">
+                <i class="ti ti-chevron-up"></i>
+                <span class="btn-text">Collapse Case Study</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Case Study 2: Spatial Analysis of Secondary Education Services in Port Said Governorate -->
+        <article class="project-card fade-up delay-1" data-category="spatial-stats">
+          <div class="project-meta-row">
+            <span class="project-tag"><i class="ti ti-building-community"></i> Urban Planning / Spatial Statistics Case Study</span>
+            <div class="role-pills-row" style="margin: 0; display: inline-flex; flex-wrap: wrap; gap: 0.4rem;">
+              <span class="project-role-badge"><i class="ti ti-user-check"></i> GIS Analyst</span>
+              <span class="project-role-badge"><i class="ti ti-chart-dots"></i> Spatial Statistics Specialist</span>
+              <span class="project-role-badge"><i class="ti ti-school"></i> Educational Planning Analyst</span>
+            </div>
+          </div>
+
+          <h3 class="project-title" style="font-size: 1.6rem; margin-top: 0.75rem; line-height: 1.3;" data-i18n="p2-title">
+            Spatial Analysis of Secondary Education Services in Port Said Governorate, Egypt
+          </h3>
+          <p class="project-subtitle" style="font-size: 1.05rem; color: var(--accent-color); font-weight: 600;" data-i18n="p2-sub">
+            Spatial Econometrics, Hotspot Analysis (Getis-Ord Gi*), Moran's I &amp; GWR Modeling
+          </p>
+          
+          <p class="project-desc" style="font-size: 1rem; line-height: 1.7; color: var(--text-muted); margin-top: 0.5rem;" data-i18n="p2-desc">
+            Evaluated secondary education spatial efficiency, catchment equity, and service gaps across 8 administrative districts in Port Said Governorate using spatial econometrics, Getis-Ord Gi* hotspot clustering, Moran's I, and Geographically Weighted Regression (GWR).
+          </p>
+          
+          <!-- Key Metrics Grid -->
+          <div class="project-metrics" style="margin: 1.25rem 0; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+            <div class="metric-box">
+              <div class="metric-val" style="color: #f59e0b;">42</div>
+              <div class="metric-lbl" data-i18n="p2-m1-lbl">Secondary Schools</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #3b82f6;">749,371</div>
+              <div class="metric-lbl" data-i18n="p2-m2-lbl">District Population</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #10b981;">Gi* / Moran</div>
+              <div class="metric-lbl" data-i18n="p2-m3-lbl">Spatial Statistics</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #a855f7;">GWR</div>
+              <div class="metric-lbl" data-i18n="p2-m4-lbl">Econometric Model</div>
+            </div>
+          </div>
+
+          <!-- Tech Badges Summary -->
+          <div class="project-tech" style="margin: 1rem 0;">
+            <span class="tech-badge tech-arcgis"><i class="ti ti-map-2"></i> ArcGIS Pro</span>
+            <span class="tech-badge tech-stats"><i class="ti ti-chart-dots"></i> Moran's I</span>
+            <span class="tech-badge tech-hotspot"><i class="ti ti-flame"></i> Getis-Ord Gi*</span>
+            <span class="tech-badge tech-gwr"><i class="ti ti-math-function"></i> GWR</span>
+            <span class="tech-badge tech-gee"><i class="ti ti-brand-google"></i> Google Earth Engine</span>
+          </div>
+
+          <!-- Action Bar with View Case Study Button -->
+          <div class="project-links" style="margin-top: 1.25rem; align-items: center;">
+            <button type="button" class="project-btn primary-btn toggle-case-study-btn" data-target="#portsaidCaseStudyDetails" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: #fff; border: none; font-weight: 700;">
+              <i class="ti ti-layout-sidebar-right-expand"></i>
+              <span class="btn-text" data-i18n="btn-view-case-study">View Case Study</span>
+            </button>
+            <span class="project-request-note" style="font-size: 0.88rem; color: var(--text-muted); font-style: italic;">
+              <i class="ti ti-file-info" style="color: #3b82f6;"></i> <span data-i18n="note-report">Full project report is available upon request</span>
+            </span>
+          </div>
+
+          <!-- EXPANDABLE CASE STUDY CONTENT DRAWER -->
+          <div id="portsaidCaseStudyDetails" class="case-study-details-content" style="display: none; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem; animation: fadeIn 0.4s ease-in-out;">
+            
+            <div style="margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #3b82f6; margin-bottom: 0.5rem;"><i class="ti ti-info-circle"></i> Project Overview</h4>
+              <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-main); margin: 0;">
+                This project evaluates the spatial efficiency and accessibility of secondary education services across Port Said Governorate using GIS and spatial statistics. The study investigates school distribution, service accessibility, educational gaps, population pressure, and social indicators to identify underserved areas and support evidence-based educational planning.
+              </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: rgba(59, 130, 246, 0.06); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #3b82f6; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-alert-triangle"></i> The Challenge
+                </h5>
+                <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+                  Port Said has experienced significant urban expansion and population growth, creating spatial imbalances between population concentrations and educational facilities. Central districts face overcrowding while peripheral districts suffer from severe accessibility gaps.
+                </p>
+              </div>
+
+              <div style="background: rgba(16, 185, 129, 0.06); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #10b981; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-map-pin"></i> Study Area &amp; Scope
+                </h5>
+                <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+                  Covered all 8 administrative districts of Port Said Governorate (Al-Zohour, Al-Manakh, Al-Arab, Al-Dawahi, Port Fouad, Al-Janoub, Al-Manasra, East Port Said) auditing 749,371 residents and 18,720 secondary-age students (15–19 years).
+                </p>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; margin-bottom: 0.75rem; color: var(--text-main);"><i class="ti ti-database"></i> Data Sources Integrated:</h5>
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.6rem;">
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #3b82f6;">School Database:</strong> 42 Secondary Schools
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #10b981;">Demographics:</strong> CAPMAS Census Data
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #f59e0b;">Education Data:</strong> Ministry EMIS Records
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #8b5cf6;">Spatial Data:</strong> HDX Boundaries &amp; OSM
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-route"></i> Advanced Spatial Statistics &amp; GIS Workflow:</h5>
+              <ol style="color: var(--text-muted); line-height: 1.7; padding-left: 1.25rem; font-size: 0.9rem; margin: 0;">
+                <li><strong>Choropleth Distribution Analysis:</strong> Mapped school density across districts to identify spatial concentration vs deficiency zones.</li>
+                <li><strong>Average Nearest Neighbor (NNI):</strong> Evaluated spatial clustering, confirming a statistically significant clustered school distribution.</li>
+                <li><strong>1000m Network Accessibility Buffer:</strong> Calculated service coverage zones around schools to pinpoint underserved communities.</li>
+                <li><strong>Population-to-School Ratio &amp; Gap Analysis:</strong> Measured educational pressure (Students aged 15-19 ÷ Schools) to identify true supply shortages.</li>
+                <li><strong>Hotspot Analysis (Getis-Ord Gi*):</strong> Identified statistically significant school concentration Hotspots (Al-Zohour, Al-Manakh, Al-Arab) and Coldspots (Al-Janoub, Al-Manasra).</li>
+                <li><strong>Moran's I &amp; GWR Modeling:</strong> Confirmed spatial autocorrelation and modeled Geographically Weighted Regression linking literacy rates to educational accessibility.</li>
+              </ol>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #3b82f6; font-size: 1rem;"><i class="ti ti-trophy"></i> Key Statistical Findings</h5>
+                <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.85rem; color: var(--text-main); line-height: 1.7;">
+                  <li><strong>Clustered Distribution:</strong> NNI analysis proved schools are heavily clustered in urban cores rather than evenly spread.</li>
+                  <li><strong>Gi* Hotspots:</strong> Al-Zohour, Al-Manakh, Al-Arab form primary hotspots; Al-Janoub and Al-Manasra form significant coldspots.</li>
+                  <li><strong>Social Correlation:</strong> Districts with low school coverage exhibit higher illiteracy levels.</li>
+                </ul>
+              </div>
+
+              <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #10b981; font-size: 1rem;"><i class="ti ti-bulb"></i> GIS Recommendations</h5>
+                <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.7;">
+                  <li>Establish new secondary schools in underserved Al-Janoub and Al-Manasra districts.</li>
+                  <li>Reduce overcrowding in Al-Zohour, Al-Manakh, and Al-Arab.</li>
+                  <li>Implement periodic GIS educational accessibility assessments.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-check-all"></i> Skills Demonstrated:</h5>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span class="project-role-badge"><i class="ti ti-check"></i> ArcGIS Pro</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Spatial Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Educational GIS</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Accessibility Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Buffer Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Gap Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Average Nearest Neighbor (ANN)</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Moran’s I</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Hotspot Analysis (Getis-Ord Gi*)</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> GWR Modeling</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Geodatabase Design</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(59, 130, 246, 0.08); border-left: 4px solid #3b82f6; border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <strong style="color: var(--text-main);"><i class="ti ti-info-circle"></i> Portfolio Note:</strong> Full project report is available upon request.
+            </div>
+
+            <div style="text-align: right; margin-top: 1rem;">
+              <button type="button" class="project-btn outline-btn toggle-case-study-btn" data-target="#portsaidCaseStudyDetails">
+                <i class="ti ti-chevron-up"></i>
+                <span class="btn-text">Collapse Case Study</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Case Study 3: Qattara Depression Development Assessment -->
+        <article class="project-card fade-up" data-category="ml-gee">
+          <div class="project-meta-row">
+            <span class="project-tag"><i class="ti ti-mountain"></i> Geomorphology / Environmental ML &amp; Hydrology</span>
+            <div class="role-pills-row" style="margin: 0; display: inline-flex; flex-wrap: wrap; gap: 0.4rem;">
+              <span class="project-role-badge"><i class="ti ti-user-check"></i> GIS Analyst</span>
+              <span class="project-role-badge"><i class="ti ti-satellite"></i> Remote Sensing Specialist</span>
+              <span class="project-role-badge"><i class="ti ti-cpu"></i> Spatial Decision Support Specialist</span>
+            </div>
+          </div>
+
+          <h3 class="project-title" style="font-size: 1.6rem; margin-top: 0.75rem; line-height: 1.3;" data-i18n="p3-title">
+            Qattara Depression Development Assessment Using GIS, Remote Sensing &amp; Artificial Intelligence
+          </h3>
+          <p class="project-subtitle" style="font-size: 1.05rem; color: var(--accent-color); font-weight: 600;" data-i18n="p3-sub">
+            Morphometric, Climatic, Hydrological &amp; Weakly Supervised Random Forest AI Modeling
+          </p>
+          
+          <p class="project-desc" style="font-size: 1rem; line-height: 1.7; color: var(--text-muted); margin-top: 0.5rem;" data-i18n="p3-desc">
+            Integrated geospatial &amp; environmental decision-support framework evaluating Africa's largest depression (~19,500 km², -133m elevation) for water transfer pathways, agriculture, infrastructure, and climate adaptation.
+          </p>
+          
+          <!-- Key Metrics Grid -->
+          <div class="project-metrics" style="margin: 1.25rem 0; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+            <div class="metric-box">
+              <div class="metric-val" style="color: #f59e0b;">~19,500 km²</div>
+              <div class="metric-lbl" data-i18n="p3-m1-lbl">Study Area</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #3b82f6;">4 RF</div>
+              <div class="metric-lbl" data-i18n="p3-m2-lbl">AI Models</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #10b981;">98.6–100%</div>
+              <div class="metric-lbl" data-i18n="p3-m3-lbl">Model Accuracy</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #a855f7;">25%–35%</div>
+              <div class="metric-lbl" data-i18n="p3-m4-lbl">Highly Suitable Zone</div>
+            </div>
+          </div>
+
+          <!-- Tech Badges Summary -->
+          <div class="project-tech" style="margin: 1rem 0;">
+            <span class="tech-badge tech-gee"><i class="ti ti-brand-google"></i> Google Earth Engine</span>
+            <span class="tech-badge tech-arcgis"><i class="ti ti-map-2"></i> ArcGIS Pro</span>
+            <span class="tech-badge tech-dem"><i class="ti ti-mountain"></i> SRTM DEM (30m)</span>
+            <span class="tech-badge tech-climate"><i class="ti ti-cloud-rain"></i> ERA5 &amp; MODIS</span>
+            <span class="tech-badge tech-rf"><i class="ti ti-brain"></i> Weakly Supervised RF</span>
+          </div>
+
+          <!-- Action Bar with View Case Study Button -->
+          <div class="project-links" style="margin-top: 1.25rem; align-items: center;">
+            <button type="button" class="project-btn primary-btn toggle-case-study-btn" data-target="#qattaraCaseStudyDetails" style="background: linear-gradient(135deg, #10b981, #059669); color: #fff; border: none; font-weight: 700;">
+              <i class="ti ti-layout-sidebar-right-expand"></i>
+              <span class="btn-text" data-i18n="btn-view-case-study">View Case Study</span>
+            </button>
+            <span class="project-request-note" style="font-size: 0.88rem; color: var(--text-muted); font-style: italic;">
+              <i class="ti ti-file-info" style="color: #10b981;"></i> <span data-i18n="note-report">Full project report is available upon request</span>
+            </span>
+          </div>
+
+          <!-- EXPANDABLE CASE STUDY CONTENT DRAWER -->
+          <div id="qattaraCaseStudyDetails" class="case-study-details-content" style="display: none; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem; animation: fadeIn 0.4s ease-in-out;">
+            
+            <div style="margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #10b981; margin-bottom: 0.5rem;"><i class="ti ti-info-circle"></i> Project Overview</h4>
+              <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-main); margin: 0;">
+                This project investigates the development potential of the Qattara Depression in Egypt’s Western Desert through an integrated geospatial and environmental assessment framework combining Remote Sensing, GIS, Machine Learning, Morphometric Analysis, Climatic Modeling, and Spatial Decision Support.
+              </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: rgba(16, 185, 129, 0.06); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #10b981; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-alert-triangle"></i> The Challenge
+                </h5>
+                <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+                  The Qattara Depression (~19,500 km², lowest point -133m below sea level) lacks research integrating geomorphology, climate dynamics, environmental change, hydrology, and AI spatial decision-support into a unified strategic development framework.
+                </p>
+              </div>
+
+              <div style="background: rgba(59, 130, 246, 0.06); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #3b82f6; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-cpu"></i> 4 Random Forest AI Models
+                </h5>
+                <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+                  <li><strong>Geomorphological RF:</strong> 98.78% Accuracy</li>
+                  <li><strong>Environmental RF:</strong> 98.64% Accuracy</li>
+                  <li><strong>Hazard &amp; Water Flow RF:</strong> 100.00% Accuracy</li>
+                  <li><strong>Development Suitability RF:</strong> 99.73% Accuracy</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; margin-bottom: 0.75rem; color: var(--text-main);"><i class="ti ti-database"></i> Data Sources Integrated:</h5>
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.6rem;">
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #10b981;">Terrain:</strong> SRTM DEM (30m)
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #3b82f6;">Climate Data:</strong> ERA5 Rain, Temp &amp; Wind
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #ef4444;">MODIS Data:</strong> ET, NDVI, BSI, SAVI, SI
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #8b5cf6;">Geology:</strong> Faults &amp; Lithological Maps
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-route"></i> Key Findings &amp; Technical Breakthroughs:</h5>
+              <ul style="color: var(--text-muted); line-height: 1.7; padding-left: 1.25rem; font-size: 0.9rem; margin: 0;">
+                <li><strong>25%–35% High Development Suitability:</strong> Identified ~4,900–6,800 km² of stable flat alluvial plains suitable for agriculture and urban expansion.</li>
+                <li><strong>Water Transfer Feasibility:</strong> Natural terrain supports water movement; major flow accumulation zones exist naturally, proving extensive artificial canals are not required. Northeastern margin identified as optimal intake location.</li>
+                <li><strong>Environmental Dynamics:</strong> LST and evapotranspiration show warming trends, but sustainable water management guarantees long-term viability.</li>
+              </ul>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-check-all"></i> Skills Demonstrated:</h5>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span class="project-role-badge"><i class="ti ti-check"></i> Advanced GIS Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Remote Sensing</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Google Earth Engine</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Random Forest ML</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Weakly Supervised Learning</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Development Suitability Modeling</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Hydrological Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Morphometric Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> SDSS</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> ArcGIS Pro</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(59, 130, 246, 0.08); border-left: 4px solid #3b82f6; border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <strong style="color: var(--text-main);"><i class="ti ti-info-circle"></i> Portfolio Note:</strong> <span data-i18n="note-report">Full project report is available upon request</span>
+            </div>
+
+            <div style="text-align: right; margin-top: 1rem;">
+              <button type="button" class="project-btn outline-btn toggle-case-study-btn" data-target="#qattaraCaseStudyDetails">
+                <i class="ti ti-chevron-up"></i>
+                <span class="btn-text" data-i18n="btn-hide-case-study">Collapse Case Study</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Case Study 4: Agricultural Land Expansion Analysis in Farafra Depression -->
+        <article class="project-card fade-up delay-1" data-category="ml-gee">
+          <div class="project-meta-row">
+            <span class="project-tag"><i class="ti ti-leaf"></i> Remote Sensing / Time-Series AI Change Detection Case Study</span>
+            <div class="role-pills-row" style="margin: 0; display: inline-flex; flex-wrap: wrap; gap: 0.4rem;">
+              <span class="project-role-badge"><i class="ti ti-user-check"></i> GIS &amp; Remote Sensing Analyst</span>
+              <span class="project-role-badge"><i class="ti ti-cpu"></i> Spatial AI Specialist</span>
+            </div>
+          </div>
+
+          <h3 class="project-title" style="font-size: 1.6rem; margin-top: 0.75rem; line-height: 1.3;" data-i18n="p4-title">
+            Agricultural Land Expansion Analysis in Farafra Depression, Egypt Using Remote Sensing &amp; Artificial Intelligence
+          </h3>
+          <p class="project-subtitle" style="font-size: 1.05rem; color: var(--accent-color); font-weight: 600;" data-i18n="p4-sub">
+            34-Year Satellite Change Detection &amp; Random Forest Classification (1990–2024)
+          </p>
+          
+          <p class="project-desc" style="font-size: 1rem; line-height: 1.7; color: var(--text-muted); margin-top: 0.5rem;" data-i18n="p4-desc">
+            Analyzed 34-year spatiotemporal agricultural evolution in Farafra Oasis using multi-temporal Landsat imagery (1990–2024), spectral indices (NDVI, SAVI, NDWI, EVI), and Random Forest machine learning.
+          </p>
+          
+          <!-- Key Metrics Grid -->
+          <div class="project-metrics" style="margin: 1.25rem 0; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+            <div class="metric-box">
+              <div class="metric-val" style="color: #f59e0b;">34 Yrs</div>
+              <div class="metric-lbl" data-i18n="p4-m1-lbl">Satellite Time Series</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #3b82f6;">12.8 → 535 km²</div>
+              <div class="metric-lbl" data-i18n="p4-m2-lbl">Agricultural Area</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #10b981;">+4,058%</div>
+              <div class="metric-lbl" data-i18n="p4-m3-lbl">Land Growth Rate</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #a855f7;">RF Model</div>
+              <div class="metric-lbl" data-i18n="p4-m4-lbl">AI Classifier</div>
+            </div>
+          </div>
+
+          <!-- Tech Badges Summary -->
+          <div class="project-tech" style="margin: 1rem 0;">
+            <span class="tech-badge tech-gee"><i class="ti ti-brand-google"></i> Google Earth Engine</span>
+            <span class="tech-badge tech-landsat"><i class="ti ti-satellite"></i> Landsat 5 / 7 / 8</span>
+            <span class="tech-badge tech-rf"><i class="ti ti-cpu"></i> Random Forest ML</span>
+            <span class="tech-badge tech-indices"><i class="ti ti-plant-2"></i> NDVI / SAVI / NDWI / EVI</span>
+            <span class="tech-badge tech-arcgis"><i class="ti ti-map-2"></i> ArcGIS Pro</span>
+          </div>
+
+          <!-- Action Bar with View Case Study Button -->
+          <div class="project-links" style="margin-top: 1.25rem; align-items: center;">
+            <button type="button" class="project-btn primary-btn toggle-case-study-btn" data-target="#farafraCaseStudyDetails" style="background: linear-gradient(135deg, #10b981, #047857); color: #fff; border: none; font-weight: 700;">
+              <i class="ti ti-layout-sidebar-right-expand"></i>
+              <span class="btn-text" data-i18n="btn-view-case-study">View Case Study</span>
+            </button>
+            <span class="project-request-note" style="font-size: 0.88rem; color: var(--text-muted); font-style: italic;">
+              <i class="ti ti-file-info" style="color: #10b981;"></i> <span data-i18n="note-report">Full project report is available upon request</span>
+            </span>
+          </div>
+
+          <!-- EXPANDABLE CASE STUDY CONTENT DRAWER -->
+          <div id="farafraCaseStudyDetails" class="case-study-details-content" style="display: none; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem; animation: fadeIn 0.4s ease-in-out;">
+            
+            <div style="margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #10b981; margin-bottom: 0.5rem;"><i class="ti ti-info-circle"></i> Project Overview</h4>
+              <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-main); margin: 0;">
+                This project analyzes the spatiotemporal evolution of agricultural land in Farafra Depression, Western Desert of Egypt, between 1990 and 2024. The study integrates Remote Sensing, GIS, Google Earth Engine, and Artificial Intelligence techniques to monitor agricultural expansion and identify newly reclaimed lands in one of Egypt’s key desert development regions.
+              </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: rgba(16, 185, 129, 0.06); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #10b981; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-alert-triangle"></i> The Challenge
+                </h5>
+                <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+                  Egypt relies on desert reclamation to support food security. Monitoring multi-decadal expansion across vast arid regions requires processing large multi-temporal satellite imagery collections and accurately extracting vegetation spectral indices.
+                </p>
+              </div>
+
+              <div style="background: rgba(59, 130, 246, 0.06); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #3b82f6; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-chart-arrows"></i> 34-Year Growth Evolution
+                </h5>
+                <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.85rem; color: var(--text-main); line-height: 1.6;">
+                  <li><strong>1990:</strong> 12.87 km²</li>
+                  <li><strong>2000:</strong> 38.42 km²</li>
+                  <li><strong>2010:</strong> 121.70 km²</li>
+                  <li><strong>2015:</strong> 214.70 km²</li>
+                  <li><strong>2020:</strong> 356.90 km²</li>
+                  <li><strong>2024:</strong> 535.10 km² (+4,058% Total Growth!)</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; margin-bottom: 0.75rem; color: var(--text-main);"><i class="ti ti-database"></i> Datasets &amp; Spectral Indices:</h5>
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.6rem;">
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #10b981;">Landsat 5 TM:</strong> 1990 Image Baseline
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #3b82f6;">Landsat 7 ETM+:</strong> 2000 &amp; 2010 Time Series
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #f59e0b;">Landsat 8 OLI:</strong> 2015, 2020 &amp; 2024 Series
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #8b5cf6;">Spectral Indices:</strong> NDVI, SAVI, NDWI, EVI
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-bulb"></i> Major Findings &amp; Drivers:</h5>
+              <ul style="color: var(--text-muted); line-height: 1.7; padding-left: 1.25rem; font-size: 0.9rem; margin: 0;">
+                <li><strong>Rapid Post-2015 Acceleration:</strong> Most new agricultural reclamation occurred after 2015, concentrated in northern and northeastern parts of Farafra Depression.</li>
+                <li><strong>Technology &amp; Groundwater Drivers:</strong> Expansion was driven primarily by groundwater availability and center-pivot irrigation systems.</li>
+                <li><strong>Random Forest AI Precision:</strong> Achieved high classification performance separating crops from desert sand using multi-spectral indices.</li>
+              </ul>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-check-all"></i> Skills Demonstrated:</h5>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span class="project-role-badge"><i class="ti ti-check"></i> Remote Sensing</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> GIS Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Google Earth Engine</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Land Cover Classification</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Random Forest ML</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Change Detection</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> NDVI Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Spatial Statistics</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> ArcGIS Pro</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Agricultural GIS</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(59, 130, 246, 0.08); border-left: 4px solid #3b82f6; border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <strong style="color: var(--text-main);"><i class="ti ti-info-circle"></i> Portfolio Note:</strong> Full project report is available upon request.
+            </div>
+
+            <div style="text-align: right; margin-top: 1rem;">
+              <button type="button" class="project-btn outline-btn toggle-case-study-btn" data-target="#farafraCaseStudyDetails">
+                <i class="ti ti-chevron-up"></i>
+                <span class="btn-text">Collapse Case Study</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Case Study 5: Healthcare Services & Endemic Diseases Spatial Analysis in Belqas District -->
+        <article class="project-card fade-up" data-category="health-gis">
+          <div class="project-meta-row">
+            <span class="project-tag"><i class="ti ti-stethoscope"></i> Health GIS / Spatial Network Modeling Case Study</span>
+            <div class="role-pills-row" style="margin: 0; display: inline-flex; flex-wrap: wrap; gap: 0.4rem;">
+              <span class="project-role-badge"><i class="ti ti-user-check"></i> GIS Analyst</span>
+              <span class="project-role-badge"><i class="ti ti-heartbeat"></i> Health GIS Specialist</span>
+              <span class="project-role-badge"><i class="ti ti-cpu"></i> Spatial Decision Support Specialist</span>
+            </div>
+          </div>
+
+          <h3 class="project-title" style="font-size: 1.6rem; margin-top: 0.75rem; line-height: 1.3;" data-i18n="p5-title">
+            Healthcare Services &amp; Endemic Diseases Spatial Analysis in Belqas District, Egypt
+          </h3>
+          <p class="project-subtitle" style="font-size: 1.05rem; color: var(--accent-color); font-weight: 600;" data-i18n="p5-sub">
+            Network Analysis, Accessibility Modeling &amp; Environmental Disease Risk Mapping
+          </p>
+          
+          <p class="project-desc" style="font-size: 1rem; line-height: 1.7; color: var(--text-muted); margin-top: 0.5rem;" data-i18n="p5-desc">
+            Investigated spatial accessibility of healthcare services and their correlation with 12 endemic &amp; chronic disease categories across Belqas District, Dakahlia Governorate to identify underserved areas and support health planning.
+          </p>
+          
+          <!-- Key Metrics Grid -->
+          <div class="project-metrics" style="margin: 1.25rem 0; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+            <div class="metric-box">
+              <div class="metric-val" style="color: #f59e0b;">12</div>
+              <div class="metric-lbl" data-i18n="p5-m1-lbl">Disease Categories</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #3b82f6;">3 Sites</div>
+              <div class="metric-lbl" data-i18n="p5-m2-lbl">Priority Hospitals</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #10b981;">Network</div>
+              <div class="metric-lbl" data-i18n="p5-m3-lbl">Analyst Service Area</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-val" style="color: #a855f7;">SDSS</div>
+              <div class="metric-lbl" data-i18n="p5-m4-lbl">Decision Support</div>
+            </div>
+          </div>
+
+          <!-- Tech Badges Summary -->
+          <div class="project-tech" style="margin: 1rem 0;">
+            <span class="tech-badge tech-arcgis"><i class="ti ti-map-2"></i> ArcGIS Pro</span>
+            <span class="tech-badge tech-network"><i class="ti ti-route"></i> Network Analyst</span>
+            <span class="tech-badge tech-spatial"><i class="ti ti-vector-triangle"></i> Spatial Analyst</span>
+            <span class="tech-badge tech-gee"><i class="ti ti-brand-google"></i> Google Earth Engine</span>
+            <span class="tech-badge tech-osm"><i class="ti ti-map-pin"></i> OpenStreetMap</span>
+          </div>
+
+          <!-- Action Bar with View Case Study Button -->
+          <div class="project-links" style="margin-top: 1.25rem; align-items: center;">
+            <button type="button" class="project-btn primary-btn toggle-case-study-btn" data-target="#belqasCaseStudyDetails" style="background: linear-gradient(135deg, #ec4899, #be185d); color: #fff; border: none; font-weight: 700;">
+              <i class="ti ti-layout-sidebar-right-expand"></i>
+              <span class="btn-text" data-i18n="btn-view-case-study">View Case Study</span>
+            </button>
+            <span class="project-request-note" style="font-size: 0.88rem; color: var(--text-muted); font-style: italic;">
+              <i class="ti ti-file-info" style="color: #ec4899;"></i> <span data-i18n="note-report">Full project report is available upon request</span>
+            </span>
+          </div>
+
+          <!-- EXPANDABLE CASE STUDY CONTENT DRAWER -->
+          <div id="belqasCaseStudyDetails" class="case-study-details-content" style="display: none; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem; animation: fadeIn 0.4s ease-in-out;">
+            
+            <div style="margin-bottom: 1.5rem;">
+              <h4 style="font-size: 1.1rem; color: #ec4899; margin-bottom: 0.5rem;"><i class="ti ti-info-circle"></i> Project Overview</h4>
+              <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-main); margin: 0;">
+                This project investigates the spatial relationship between healthcare service distribution and endemic disease prevalence within Belqas District, Dakahlia Governorate, Egypt. Using GIS, the study evaluates healthcare accessibility, service coverage, and disease distribution patterns to identify underserved areas and support evidence-based healthcare planning.
+              </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: rgba(236, 72, 153, 0.06); border: 1px solid rgba(236, 72, 153, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #ec4899; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-alert-triangle"></i> The Challenge
+                </h5>
+                <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+                  Healthcare facilities are concentrated in urban hubs while peripheral rural villages face limited accessibility. The study answered whether healthcare services spatially align with population needs and how disease prevalence relates to travel accessibility.
+                </p>
+              </div>
+
+              <div style="background: rgba(59, 130, 246, 0.06); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 12px; padding: 1.1rem;">
+                <h5 style="margin: 0 0 0.4rem; color: #3b82f6; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <i class="ti ti-activity"></i> 12 Disease Categories Analyzed
+                </h5>
+                <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; color: var(--text-muted);">
+                  Hepatitis (A, B, C), Bilharzia, Intestinal Parasites, Hypertension, Diabetes, Heart Diseases, Kidney Failure, Anemia, Asthma, Pneumonia, Skin Diseases, Gastrointestinal Diseases.
+                </p>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; margin-bottom: 0.75rem; color: var(--text-main);"><i class="ti ti-database"></i> Data Sources Integrated:</h5>
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.6rem;">
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #ec4899;">Healthcare Data:</strong> Hospitals, Rural Units, Clinics
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #3b82f6;">Socioeconomic Data:</strong> CAPMAS Demographics
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #10b981;">Health Directorate:</strong> Dakahlia Health Records
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem;">
+                  <strong style="color: #8b5cf6;">Environmental Data:</strong> LULC, Road Net, Waste Sites
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-map-pin-filled"></i> Priority Locations for Hospital Expansion:</h5>
+              <ol style="color: var(--text-muted); line-height: 1.7; padding-left: 1.25rem; font-size: 0.9rem; margin: 0;">
+                <li><strong>Area between El-Sharkia and El-Samaha Al-Kobra:</strong> High rural population density with severe travel time deficit.</li>
+                <li><strong>Southern Expansion Zone of Belqas City:</strong> Rapidly growing urban perimeter under high medical capacity pressure.</li>
+                <li><strong>Al-Hafeer &amp; Al-Amal Region near Qalabsho:</strong> Agricultural zone with high endemic disease prevalence and extreme distance from hospital hubs.</li>
+              </ol>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;"><i class="ti ti-check-all"></i> Skills Demonstrated:</h5>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span class="project-role-badge"><i class="ti ti-check"></i> GIS Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Spatial Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Healthcare GIS</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Geodatabase Design</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Cartography</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Buffer Analysis</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Accessibility Modeling</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Data Visualization</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> ArcGIS Pro</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> Google Earth Engine</span>
+                <span class="project-role-badge"><i class="ti ti-check"></i> SDSS</span>
+              </div>
+            </div>
+
+            <div style="background: rgba(59, 130, 246, 0.08); border-left: 4px solid #3b82f6; border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <strong style="color: var(--text-main);"><i class="ti ti-info-circle"></i> Portfolio Note:</strong> Full project report is available upon request.
+            </div>
+
+            <div style="text-align: right; margin-top: 1rem;">
+              <button type="button" class="project-btn outline-btn toggle-case-study-btn" data-target="#belqasCaseStudyDetails">
+                <i class="ti ti-chevron-up"></i>
+                <span class="btn-text">Collapse Case Study</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SKILLS SECTION -->
+  <section class="skills" id="skills">
+    <div class="container-xl">
+      <header class="section-head">
+        <span class="section-label fade-up" data-i18n="skills-label">03 · Toolkit</span>
+        <h2 class="section-title fade-up delay-1" data-i18n="skills-title">Geospatial skills<br><em>&amp; analytical stack.</em></h2>
+        <p class="section-lead fade-up delay-2" data-i18n="skills-lead">My specialized GIS, Remote Sensing, Spatial AI, and Vibe Coding technology stack.</p>
+      </header>
+
+      <div class="skills__grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        
+        <!-- Core GIS & Remote Sensing -->
+        <div class="skills-card fade-up">
+          <div class="skills-card__head">
+            <i class="ti ti-map-2" style="color: #f59e0b;"></i>
+            <h3 data-i18n="skill-cat-1">Core GIS &amp; Remote Sensing</h3>
+          </div>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <div class="skill-info"><span>GIS</span><span>98%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 98%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>ArcGIS Pro</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Google Earth Engine</span><span>92%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Remote Sensing</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Spatial Analysis</span><span>96%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 96%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Cartography</span><span>90%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Geospatial Data Analysis</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Spatial ML & Vibe Coding -->
+        <div class="skills-card fade-up delay-1">
+          <div class="skills-card__head">
+            <i class="ti ti-cpu" style="color: #3b82f6;"></i>
+            <h3 data-i18n="skill-cat-2">Spatial ML &amp; Vibe Coding</h3>
+          </div>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <div class="skill-info"><span>Machine Learning for GIS</span><span>92%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Random Forest Classification</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Change Detection</span><span>94%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 94%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Land Cover Classification</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Site Suitability Analysis</span><span>96%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 96%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Vibe Coder (AI-Assisted Dev)</span><span>98%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 98%; background: linear-gradient(90deg, #3b82f6, #8b5cf6);"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Spatial Statistics & Econometrics -->
+        <div class="skills-card fade-up delay-2">
+          <div class="skills-card__head">
+            <i class="ti ti-chart-dots" style="color: #10b981;"></i>
+            <h3 data-i18n="skill-cat-3">Spatial Statistics &amp; Econometrics</h3>
+          </div>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <div class="skill-info"><span>Spatial Statistics</span><span>94%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 94%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Hot Spot Analysis (Getis-Ord Gi*)</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Moran's I Autocorrelation</span><span>92%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>GWR (Geographically Weighted Reg)</span><span>90%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Average Nearest Neighbor (ANN)</span><span>90%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Network &amp; Accessibility Modeling</span><span>93%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 93%;"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Environmental & Raster Analytics -->
+        <div class="skills-card fade-up delay-3">
+          <div class="skills-card__head">
+            <i class="ti ti-mountain" style="color: #a855f7;"></i>
+            <h3 data-i18n="skill-cat-4">Environmental &amp; Raster Analytics</h3>
+          </div>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <div class="skill-info"><span>NDVI Analysis</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>DEM Analysis</span><span>94%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 94%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Hydrological Analysis</span><span>92%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Python for GIS</span><span>90%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Spectral Indices (SAVI / EVI / NDWI)</span><span>95%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-info"><span>Geodatabase Design &amp; Spatial SQL</span><span>92%</span></div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. CERTIFICATES SECTION -->
+  <section class="certificates" id="certificates">
+    <div class="container-xl">
+      <header class="section-head">
+        <span class="section-label fade-up" data-i18n="certs-label">04 · Credentials</span>
+        <h2 class="section-title fade-up delay-1" data-i18n="certs-title">Certified expertise<br><em>&amp; academic milestones.</em></h2>
+        <p class="section-lead fade-up delay-2" data-i18n="certs-lead">Verified professional specializations and academic course achievements from leading global universities and technology leaders via Coursera.</p>
+      </header>
+
+      <!-- Grid for Specializations -->
+      <div class="specializations__grid">
+        
+        <!-- Specialization 1: UC Davis -->
+        <article class="cert-card cert-card--specialization fade-up">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+            <span class="univ-class-badge badge-ucdavis">
+              <i class="ti ti-school"></i> Top #1 US Public Agriculture &amp; GIS University
+            </span>
+            <div class="cert-card__badge">Specialization</div>
+          </div>
+          
+          <div class="cert-card__head" style="align-items: center; gap: 1.2rem;">
+            <div class="univ-logo-box" title="University of California, Davis Logo">
+              <img src="./logos/ucdavis.svg" alt="UC Davis Official Logo" class="univ-logo-img">
+            </div>
+            <div class="cert-card__title-area">
+              <h3 class="cert-title" data-i18n="c1-title">Geographic Information Systems (GIS)</h3>
+              <span class="cert-issuer" style="font-weight: 600; color: var(--text-main);">
+                <i class="ti ti-certificate"></i> Coursera · University of California, Davis
+              </span>
+            </div>
+          </div>
+          <p class="cert-desc" data-i18n="c1-desc">Comprehensive specialization covering GIS fundamentals, spatial data formats, coordinate reference systems, spatial SQL query creation, and multi-criteria raster analysis.</p>
+          
+          <div class="cert-courses">
+            <h4>Required Curriculum (4 Courses):</h4>
+            <ul class="cert-courses-list">
+              <li><i class="ti ti-circle-check"></i> <span>Fundamentals of GIS</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>GIS Data Formats, Design and Quality</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Geospatial Analysis with ArcGIS Pro</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>GIS Applications Across Industries</span></li>
+            </ul>
+          </div>
+          
+          <div class="cert-footer">
+            <span class="cert-date">Completed Jan 2, 2026</span>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/W8CE1FP28YR9" target="_blank" rel="noopener" class="cert-link">
+              <span data-i18n="c-verify">Verify Credential</span>
+              <i class="ti ti-external-link"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Specialization 2: Erasmus University Rotterdam -->
+        <article class="cert-card cert-card--specialization fade-up delay-1">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+            <span class="univ-class-badge badge-erasmus">
+              <i class="ti ti-satellite"></i> Top 50 European Research University
+            </span>
+            <div class="cert-card__badge">Specialization</div>
+          </div>
+          
+          <div class="cert-card__head" style="align-items: center; gap: 1.2rem;">
+            <div class="univ-logo-box" title="Erasmus University Rotterdam Logo">
+              <img src="./logos/erasmus.svg" alt="Erasmus University Rotterdam Official Logo" class="univ-logo-img">
+            </div>
+            <div class="cert-card__title-area">
+              <h3 class="cert-title" data-i18n="c2-title">Satellite Imagery, Remote Sensing &amp; ML</h3>
+              <span class="cert-issuer" style="font-weight: 600; color: var(--text-main);">
+                <i class="ti ti-certificate"></i> Coursera · Erasmus University Rotterdam
+              </span>
+            </div>
+          </div>
+          <p class="cert-desc" data-i18n="c2-desc">Advanced methodology for acquiring, processing, and analyzing satellite imagery, including 3D LiDAR, SAR radar, multi-spectral data, and machine learning models for earth observation.</p>
+          
+          <div class="cert-courses">
+            <h4>Required Curriculum (8 Courses):</h4>
+            <ul class="cert-courses-list cert-courses-list--cols">
+              <li><i class="ti ti-circle-check"></i> <span>Start Remote Sensing</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Explore LiDAR in 3D</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Process SAR &amp; Multispectral</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Crunch Spatial Stats</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Analyze Climate Data</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Train ML Models</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Deep Learn Imagery</span></li>
+              <li><i class="ti ti-circle-check"></i> <span>Harness Earth Engine</span></li>
+            </ul>
+          </div>
+          
+          <div class="cert-footer">
+            <span class="cert-date">Completed May 31, 2026</span>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/Z8CHO5F8Q8XX" target="_blank" rel="noopener" class="cert-link">
+              <span data-i18n="c-verify">Verify Credential</span>
+              <i class="ti ti-external-link"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Heading for Individual Courses -->
+      <h3 class="certs-subtitle fade-up" style="margin-top: 3.5rem;" data-i18n="certs-sub-indiv">Professional Individual Courses</h3>
+
+      <!-- Grid for Courses -->
+      <div class="courses__grid">
+        
+        <!-- Course 1: IBM -->
+        <article class="cert-card cert-card--course fade-up">
+          <div style="margin-bottom: 0.8rem;">
+            <span class="univ-class-badge badge-ibm">
+              <i class="ti ti-building-factory-2"></i> Professional Industry Certification
+            </span>
+          </div>
+          <div class="cert-card__head" style="align-items: center; gap: 1.2rem;">
+            <div class="univ-logo-box" title="IBM Logo">
+              <img src="./logos/ibm.svg" alt="IBM Official Logo" class="univ-logo-img">
+            </div>
+            <div class="cert-card__title-area">
+              <h3 class="cert-title">Python for Data Science, AI &amp; Development</h3>
+              <span class="cert-issuer">IBM Skills Network</span>
+            </div>
+          </div>
+          <div class="cert-footer">
+            <span class="cert-date">Completed Jan 24, 2026</span>
+            <a href="https://www.coursera.org/account/accomplishments/verify/ALMMFDDSTV1U" target="_blank" rel="noopener" class="cert-link">
+              <span>Verify</span>
+              <i class="ti ti-external-link"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Course 2: UIUC -->
+        <article class="cert-card cert-card--course fade-up delay-1">
+          <div style="margin-bottom: 0.8rem;">
+            <span class="univ-class-badge badge-uiuc">
+              <i class="ti ti-leaf"></i> US Public Research University
+            </span>
+          </div>
+          <div class="cert-card__head" style="align-items: center; gap: 1.2rem;">
+            <div class="univ-logo-box" title="University of Illinois Urbana-Champaign Logo">
+              <img src="./logos/uiuc.svg" alt="University of Illinois Urbana-Champaign Official Logo" class="univ-logo-img">
+            </div>
+            <div class="cert-card__title-area">
+              <h3 class="cert-title">GIS for Sustainability</h3>
+              <span class="cert-issuer">University of Illinois at Urbana-Champaign</span>
+            </div>
+          </div>
+          <div class="cert-footer">
+            <span class="cert-date">Completed Jan 27, 2026</span>
+            <a href="https://www.coursera.org/account/accomplishments/verify/2K1J8HLFQJZX" target="_blank" rel="noopener" class="cert-link">
+              <span>Verify</span>
+              <i class="ti ti-external-link"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Course 3: IBM -->
+        <article class="cert-card cert-card--course fade-up">
+          <div style="margin-bottom: 0.8rem;">
+            <span class="univ-class-badge badge-ibm">
+              <i class="ti ti-terminal-2"></i> Applied Technical Certification
+            </span>
+          </div>
+          <div class="cert-card__head" style="align-items: center; gap: 1.2rem;">
+            <div class="univ-logo-box" title="IBM Logo">
+              <img src="./logos/ibm.svg" alt="IBM Official Logo" class="univ-logo-img">
+            </div>
+            <div class="cert-card__title-area">
+              <h3 class="cert-title">Python Project for Data Science</h3>
+              <span class="cert-issuer">IBM Skills Network</span>
+            </div>
+          </div>
+          <div class="cert-footer">
+            <span class="cert-date">Completed Jan 25, 2026</span>
+            <a href="https://www.coursera.org/account/accomplishments/verify/Y3B2HLT6X5OR" target="_blank" rel="noopener" class="cert-link">
+              <span>Verify</span>
+              <i class="ti ti-external-link"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Course 4: Universiteit Leiden -->
+        <article class="cert-card cert-card--course fade-up delay-1">
+          <div style="margin-bottom: 0.8rem;">
+            <span class="univ-class-badge badge-leiden">
+              <i class="ti ti-building"></i> European Academic Research Institute (Est. 1575)
+            </span>
+          </div>
+          <div class="cert-card__head" style="align-items: center; gap: 1.2rem;">
+            <div class="univ-logo-box" title="Universiteit Leiden Logo">
+              <img src="./logos/leiden.svg" alt="Universiteit Leiden Official Logo" class="univ-logo-img">
+            </div>
+            <div class="cert-card__title-area">
+              <h3 class="cert-title">Miracles of Human Language: Linguistics</h3>
+              <span class="cert-issuer">Universiteit Leiden &amp; Meertens Instituut</span>
+            </div>
+          </div>
+          <div class="cert-footer">
+            <span class="cert-date">Completed Apr 30, 2026</span>
+            <a href="https://www.coursera.org/account/accomplishments/verify/PS6GB34FOWRJ" target="_blank" rel="noopener" class="cert-link">
+              <span>Verify</span>
+              <i class="ti ti-external-link"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. SERVICES SECTION -->
+  <section class="services" id="services">
+    <div class="container-xl">
+      <header class="section-head">
+        <span class="section-label fade-up" data-i18n="services-label">05 · Services</span>
+        <h2 class="section-title fade-up delay-1" data-i18n="services-title">Software development<br><em>and GIS mapping services.</em></h2>
+        <p class="section-lead fade-up delay-2" data-i18n="services-lead">Comprehensive geospatial consulting, AI-driven spatial analysis, custom web mapping dashboards, and remote sensing solutions.</p>
+      </header>
+
+      <div class="services__grid">
+        <!-- Service 1 -->
+        <div class="service-card fade-up">
+          <div class="service-icon"><i class="ti ti-world"></i></div>
+          <h3 class="service-title">Business Website</h3>
+          <p class="service-desc">Tailored, fast-loading business portfolios and landing layouts conveying your company identity and core service metrics smoothly.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card fade-up delay-1">
+          <div class="service-icon"><i class="ti ti-layout-sidebar"></i></div>
+          <h3 class="service-title">Landing Page</h3>
+          <p class="service-desc">Clean, optimized layouts built to showcase products, software services, or campaigns with clear visitor flows and lead submissions.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card fade-up delay-2">
+          <div class="service-icon"><i class="ti ti-chart-bar"></i></div>
+          <h3 class="service-title">Web Dashboard</h3>
+          <p class="service-desc">Sophisticated dashboard interfaces with interactive data visualization, clean inventory logs, charts, and secure local databases.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card fade-up">
+          <div class="service-icon"><i class="ti ti-map-search"></i></div>
+          <h3 class="service-title">GIS Map System</h3>
+          <p class="service-desc">Custom interactive mapping pages featuring marker filtering, GeoJSON spatial overlays, location pins, and custom maps stylings.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card fade-up delay-1 span-2">
+          <div class="service-icon"><i class="ti ti-app-window"></i></div>
+          <h3 class="service-title">Custom Web App</h3>
+          <p class="service-desc">Complete full-stack solutions linking responsive React components with Express API backend routes and robust SQLite database tables.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="container-xl contact__inner">
+        <span class="section-label">06 · Contact</span>
+        <h3 data-i18n="contact-direct-title">Direct Channels</h3>
+        
+        <div class="contact-channels">
+          <div class="contact-item">
+            <div class="contact-icon-box" style="color: var(--terracotta);"><i class="ti ti-phone"></i></div>
+            <div class="contact-details">
+              <span class="label" data-i18n="contact-phone-lbl">Phone</span>
+              <a href="tel:+201071840475">+20 107 184 0475</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box" style="color: #25d366;"><i class="ti ti-brand-whatsapp"></i></div>
+            <div class="contact-details">
+              <span class="label" data-i18n="contact-wa-lbl">WhatsApp</span>
+              <a href="https://wa.me/201071840475" target="_blank" rel="noopener">+20 107 184 0475</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box" style="color: var(--terracotta);"><i class="ti ti-mail"></i></div>
+            <div class="contact-details">
+              <span class="label" data-i18n="contact-email-lbl">Email Address</span>
+              <a href="mailto:a.sayed1543@gmail.com">a.sayed1543@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box" style="color: #0a66c2;"><i class="ti ti-brand-linkedin"></i></div>
+            <div class="contact-details">
+              <span class="label" data-i18n="contact-linkedin-lbl">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/ahmed-elmorsy-787b28392/" target="_blank" rel="noopener">linkedin.com/in/ahmed-elmorsy-787b28392</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__map-wrap">
+          <h3 data-i18n="contact-location-title">Office Location</h3>
+          <!-- Map Rendering Area -->
+          <div id="egypt-map"></div>
+        </div>
+      </div>
+
+      <!-- Contact Message Form Panel -->
+      <div class="contact__form-panel fade-up delay-1">
+        <h3 data-i18n="form-title">Send a Message</h3>
+        
+        <form id="contact-form" name="contact" method="POST" data-netlify="true">
+          <!-- Hidden input for Netlify Form recognition -->
+          <input type="hidden" name="form-name" value="contact">
+
+          <label class="form-group">
+            <span data-i18n="form-name-lbl">Your Name</span>
+            <input type="text" id="form-name" name="name" class="form-control-gis" placeholder="Ahmed Ali" required>
+          </label>
+
+          <label class="form-group">
+            <span data-i18n="form-email-lbl">Your Email</span>
+            <input type="email" id="form-email" name="email" class="form-control-gis" placeholder="example@domain.com" required>
+          </label>
+
+          <label class="form-group">
+            <span data-i18n="form-project-lbl">Project Type</span>
+            <select id="form-project-type" name="project-type" class="form-control-gis form-select-gis" required>
+              <option value="" disabled selected data-i18n="form-select-opt">Select an option...</option>
+              <option value="gis-map" data-i18n="opt-gis">GIS Interactive Map</option>
+              <option value="dashboard" data-i18n="opt-dashboard">Web Dashboard</option>
+              <option value="custom-app" data-i18n="opt-custom">Custom Web App</option>
+              <option value="landing-page" data-i18n="opt-landing">Landing Page</option>
+              <option value="other" data-i18n="opt-other">Other Inquiry</option>
+            </select>
+          </label>
+
+          <label class="form-group">
+            <span data-i18n="form-message-lbl">Message Details</span>
+            <textarea id="form-message" name="message" rows="5" class="form-control-gis" placeholder="Tell me about your project, data files, layout requirements..." required></textarea>
+          </label>
+
+          <button type="submit" class="submit-btn">
+            <span data-i18n="form-submit">Send Message</span>
+            <i class="ti ti-send"></i>
+          </button>
+        </form>
+
+        <div id="form-feedback" style="display: none;" data-i18n="form-feedback">
+          Message sent successfully! Thank you for reaching out.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container-xl footer__inner">
+      <div class="footer__brand">
+        <div class="footer-name">Ahmed Elmorsy</div>
+        <p data-i18n="footer-desc">GIS Analyst, Remote Sensing Specialist, Spatial AI &amp; Vibe Coder based in Egypt.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-nav-title">Navigation</h4>
+        <ul>
+          <li><a href="#about" data-i18n="nav-about">About Me</a></li>
+          <li><a href="#projects" data-i18n="nav-projects">Featured Projects</a></li>
+          <li><a href="#skills" data-i18n="nav-skills">Skills Toolkit</a></li>
+          <li><a href="#certificates" data-i18n="nav-certificates">Certificates</a></li>
+          <li><a href="#services" data-i18n="nav-services">Offered Services</a></li>
+          <li><a href="#contact" data-i18n="nav-contact">Contact Channels</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-sync-title">Geospatial Sync</h4>
+        <ul>
+          <li data-i18n="footer-loc">Cairo, Egypt</li>
+          <li class="em" data-i18n="footer-tz">UTC+02:00 Timezone</li>
+          <li data-i18n="footer-remote">Available for Remote &amp; Freelance Contracts</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-xl footer__base">
+      <div>&copy; 2026 Ahmed Elmorsy. All Rights Reserved.</div>
+      <div class="footer-socials">
+        <a href="tel:+201071840475" aria-label="Phone"><i class="ti ti-phone"></i></a>
+        <a href="https://wa.me/201071840475" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+        <a href="mailto:a.sayed1543@gmail.com" aria-label="Email"><i class="ti ti-mail"></i></a>
+        <a href="https://www.linkedin.com/in/ahmed-elmorsy-787b28392/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Breathing Orb guide -->
+  <div class="breath-guide" id="breathGuide">
+    <div class="breath-orb"></div>
+    <div class="breath-info">
+      <span class="breath-label">System Sync</span>
+      <span class="breath-phase" id="breathPhase">calibrating...</span>
+    </div>
+  </div>
+
+  <!-- PDF Preview Modal -->
+  <div class="pdf-modal" id="pdfModal" aria-hidden="true" role="dialog">
+    <div class="pdf-modal__backdrop" id="pdfModalBackdrop"></div>
+    <div class="pdf-modal__dialog">
+      <header class="pdf-modal__header">
+        <div class="pdf-modal__title-wrap">
+          <i class="ti ti-file-text pdf-modal__icon"></i>
+          <h3 class="pdf-modal__title" id="pdfModalTitle">Document Preview</h3>
+        </div>
+        <div class="pdf-modal__actions">
+          <a href="#" id="pdfModalDownload" download class="pdf-modal__download-btn">
+            <i class="ti ti-download"></i>
+            <span>Download PDF</span>
+          </a>
+          <button class="pdf-modal__close-btn" id="pdfModalClose" aria-label="Close modal">
+            <i class="ti ti-x"></i>
+          </button>
+        </div>
+      </header>
+      <div class="pdf-modal__body">
+        <iframe id="pdfModalIframe" src="" title="PDF Preview"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
+
