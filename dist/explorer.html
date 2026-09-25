@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive maps for Ahmed Elmorsy's GIS and remote sensing case studies: solar suitability in Egypt, 34 years of farmland in Farafra, Qattara Depression development models, Port Said school access and Belqas endemic diseases.">
+  <title>Map Explorer | Ahmed Elmorsy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    try { document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light'); } catch (e) {}
+  </script>
+  <script type="module" crossorigin src="./assets/explorer-CJK0c0zI.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/leaflet-src-CsgX1QKZ.js">
+  <link rel="stylesheet" crossorigin href="./assets/explorer-BThH9oBO.css">
+</head>
+<body class="explorer">
+  <header class="ex-top">
+    <a href="./index.html#projects" class="ex-back"><i class="ti ti-arrow-left"></i> <span>Portfolio</span></a>
+    <div class="ex-brand"><span class="ex-brand__mark"></span>Map Explorer</div>
+    <nav class="ex-tabs" id="tabs" role="tablist" aria-label="Case studies">
+      <button role="tab" data-tab="solar"><i class="ti ti-sun"></i><span>Solar</span></button>
+      <button role="tab" data-tab="farafra"><i class="ti ti-plant-2"></i><span>Farafra</span></button>
+      <button role="tab" data-tab="qattara"><i class="ti ti-mountain"></i><span>Qattara</span></button>
+      <button role="tab" data-tab="portsaid"><i class="ti ti-school"></i><span>Port Said</span></button>
+      <button role="tab" data-tab="belqas"><i class="ti ti-heartbeat"></i><span>Belqas</span></button>
+    </nav>
+    <button class="ex-theme" id="themeBtn" aria-label="Toggle theme"><i class="ti ti-moon" id="themeIcon"></i></button>
+  </header>
+
+  <main class="ex-main">
+    <div id="map" aria-label="Map"></div>
+    <aside class="ex-panel" id="panel" aria-live="polite"></aside>
+  </main>
+</body>
+</html>
